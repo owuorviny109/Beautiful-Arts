@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Beau-Arts</title>
+    <link rel="stylesheet" href="assets/style/css/main.min.css">
+    <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
+        <div class="container py-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/svg/logo.svg" alt="logo" class="img-fluid me-4" width="40">
+            </a>
+            <button class="navbar-toggler bg-warning rounded-5 border-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sponsorship.html">Sponsorship</a></li>
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item active" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 rounded-5" type="search" placeholder="Find art..." aria-label="Search" />
+                    <button class="btn btn-outline-warning rounded-5 px-4 py-2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact-us" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-primary mb-4">Contact Us</h1>
+            <p class="mb-5">Whether you’re an artist, a supporter, or simply an admirer, we’d love to start a conversation. Share your thoughts, inquiries, or ideas, your voice inspires what we create.</p>
+
+            <div class="row g-5">
+                <!-- Contact Form -->
+                <div class="col-md-7">
+                    <form action="https://formspree.io/f/mgvrwanr" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control rounded-3" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control rounded-3" id="email" name="email" placeholder="input your email address here" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control rounded-3" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control rounded-3" id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="col-md-5">
+                    <div class="p-4 bg-white shadow rounded-4">
+                        <h5 class="mb-3">Reach Us</h5>
+                        <p><strong>Email:</strong> info@beau-arts.com</p>
+                        <p><strong>Phone:</strong> +254 700 000 000</p>
+                        <p><strong>Address:</strong> 123 Art Street, Kakamega, Kenya</p>
+                        <hr>
+                        <h5>Follow Us</h5>
+                        <p>
+                            <a href="#" class="text-decoration-none me-3">Facebook</a>
+                            <a href="#" class="text-decoration-none me-3">Twitter</a>
+                            <a href="#" class="text-decoration-none">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Beautiful Arts Gallery. All rights reserved.</p>
+            <p class="mb-0">Museum of Arts - A blend of modern and medieval ages</p>
+        </div>
+    </footer>
+</body>
+</html>

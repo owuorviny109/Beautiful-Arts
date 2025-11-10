@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:css": "sass sass/main.scss assets/style/css/main.min.css --style compressed",
+    "watch:css": "sass --watch sass/main.scss assets/style/css/main.min.css --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/JosephRidge/Beautiful_Arts#readme",
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "sass": "^1.93.3"
   }
 }
