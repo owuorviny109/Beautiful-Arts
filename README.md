@@ -1,6 +1,14 @@
 # Beautiful Arts Gallery
 
+**Live Demo:** [https://owuorviny109.github.io/Beautiful-Arts/](https://owuorviny109.github.io/Beautiful-Arts/)
+
 A modern, responsive website for the Beautiful Arts Gallery - Museum of Arts showcasing a blend of modern and medieval ages.
+
+## Deployment
+
+This website is deployed using GitHub Pages and automatically updates when changes are pushed to the main branch.
+
+**Live URL:** https://owuorviny109.github.io/Beautiful-Arts/
 
 ## Pages Completed
 
@@ -57,18 +65,27 @@ All pages include:
 
 ## How to Run
 
-1. Open `index.html` in your browser
-2. Navigate between pages using the navigation menu
-3. All internal links are working and properly connected
+**Option 1: View Live Site**
+- Visit: https://owuorviny109.github.io/Beautiful-Arts/
+
+**Option 2: Run Locally**
+1. Clone this repository
+2. Open `index.html` in your browser
+3. Navigate between pages using the navigation menu
+4. All internal links are working and properly connected
+
+**Option 3: Development Server**
+1. Use VS Code Live Server extension
+2. Right-click on `index.html` → "Open with Live Server"
 
 ## Features
 
-✓ Fully responsive design
-✓ Consistent navigation across all pages
-✓ Working contact form
-✓ Professional layout and styling
-✓ Accessible and semantic HTML
-✓ Cross-browser compatible
+- Fully responsive design
+- Consistent navigation across all pages
+- Working contact form
+- Professional layout and styling
+- Accessible and semantic HTML
+- Cross-browser compatible
 
 ---
 
