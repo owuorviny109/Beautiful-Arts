@@ -1,4 +1,4 @@
-feat: Complete remaining pages for Beautiful Arts Gallery website
+feat: Complete remaining pages for Beautiful Arts Gallery 
 
 Built all missing pages to complete the website after home page was done:
 
