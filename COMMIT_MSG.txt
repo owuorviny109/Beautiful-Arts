@@ -55,5 +55,4 @@ STYLING & FONTS:
 - Updated SASS configuration with reduced font sizes
 - Compiled new CSS with smaller, cleaner typography
 - Consistent navigation and footer across all pages
-
-All pages now have working navigation, proper styling, and are ready for deployment.
+ 
