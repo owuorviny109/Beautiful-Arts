@@ -192,3 +192,17 @@ beautiful-arts-gallery/
 - **Optimization Features**: Automatic cost reduction through lifecycle policies
 - **Monitoring**: Free basic metrics, detailed analytics available
 
+## AWS S3 Implementation Screenshots
+
+### Static Website Hosting Configuration
+![S3 Static Website Hosting Configuration](docs/s3-hosting-config.png)
+*S3 bucket configured for static website hosting with index.html as the default document*
+
+### S3 Bucket File Structure
+![S3 Bucket Contents](docs/s3-file-struture.png)
+*Complete file structure showing HTML pages, assets folder, and access logs directory*
+
+### Live Website Deployment
+![Live Website on S3](docs/s3-live-website.png)
+*Beautiful Arts Gallery successfully deployed and accessible via AWS S3 static hosting*
+
